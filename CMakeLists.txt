@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-set(LIBRARY_NAME ina226)
+set(LIBRARY_NAME INA226)
 
 file(GLOB_RECURSE SOURCES
         "${CMAKE_CURRENT_LIST_DIR}/src/*.c"
@@ -12,4 +12,4 @@ target_include_directories(${LIBRARY_NAME} PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}/include
         ${CMAKE_CURRENT_LIST_DIR}/port
 )
-#target_link_libraries(${LIBRARY_NAME} PUBLIC )
+# target_link_libraries(${LIBRARY_NAME} PUBLIC)
